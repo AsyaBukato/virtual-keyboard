@@ -1,5 +1,5 @@
 const keyboardObject = [
-  { //первый ряд
+  { // первый ряд
     backqoute: {
       en_lower: '`',
       en_upper: '~',
@@ -86,7 +86,7 @@ const keyboardObject = [
       width: '100px'
     }
   },
-  { //второй ряд
+  { // второй ряд
     tab: {
       en_lower: 'Tab',
       en_upper: 'Tab',
@@ -179,7 +179,7 @@ const keyboardObject = [
       ru_upper: 'Del'
     }
   },
-  { //третий ряд
+  { // третий ряд
     caps_lock: {
       en_lower: 'CapsLock',
       en_upper: 'CapsLock',
@@ -261,7 +261,7 @@ const keyboardObject = [
       width: '90px'
     }
   },
-  { //четвертый ряд
+  { // четвертый ряд
     shift_left: {
       en_lower: 'Shift',
       en_upper: 'Shift',
@@ -341,9 +341,9 @@ const keyboardObject = [
       ru_lower: 'Shift',
       ru_upper: 'Shift',
       width: '90px'
-    },
+    }
   },
-  { //пятый ряд
+  { // пятый ряд
     ctrl_left: {
       en_lower: 'Ctrl',
       en_upper: 'Ctrl',
@@ -363,11 +363,11 @@ const keyboardObject = [
       ru_upper: 'Alt'
     },
     space: {
-      en_lower: '',
-      en_upper: '',
-      ru_lower: '',
-      ru_upper: '',
-      width: '368px'
+      en_lower: ' ',
+      en_upper: ' ',
+      ru_lower: ' ',
+      ru_upper: ' ',
+      width: '372px'
     },
     alt_right: {
       en_lower: 'Alt',

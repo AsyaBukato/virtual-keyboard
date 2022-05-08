@@ -4,7 +4,7 @@ const body = document.querySelector('body')
 
 const title = document.createElement('div')
 title.classList.add('title')
-title.innerHTML = 'Виртуальная клавиатура'
+title.innerHTML = 'Virtual keyboard'
 
 const textField = document.createElement('textarea')
 textField.cols = '100'
