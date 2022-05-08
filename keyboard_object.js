@@ -335,7 +335,7 @@ const keyboardObject = [
       ru_lower: '▲',
       ru_upper: '▲'
     },
-    shift_rights: {
+    shift_right: {
       en_lower: 'Shift',
       en_upper: 'Shift',
       ru_lower: 'Shift',

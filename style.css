@@ -73,3 +73,11 @@ body {
     line-height: var(--button-height);
     cursor: pointer;
 }
+
+.info {
+    text-align: center;
+    margin: 50px 0px;
+    font-family: 'Monda', sans-serif, bold;
+    font-size: 18px;
+    color: #848484;
+}
