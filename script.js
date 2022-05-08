@@ -45,6 +45,9 @@ function clickHandler (event) {
     text = text.slice(0, -1)
   } else if (event.target.dataset.name === 'tab') {
     text = text + '    '
+  } else if (event.target.dataset.name === 'enter') {
+    text = text + '\n\r'
+    // console.log(text)
   } else {
     text = text + keyboardObject[event.target.parentNode.dataset.row][event.target.dataset.name][lang]
   }
