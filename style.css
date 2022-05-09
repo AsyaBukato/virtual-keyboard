@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin: 50px 0px;
+    font-family: 'Monda', sans-serif, bold;
+    font-size: 30px;
+    letter-spacing: 0.255em;
+    text-transform: uppercase;
+    
+}
+
+.text_field {
+    width: 800px;
+    height: 230px;
+    resize: none;
+    padding: 15px 10px;
+    overflow: hidden;
+
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+    padding: 10px;
+    row-gap: 5px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 14.52%, rgba(255, 255, 255, 0) 87.38%), #CCCCCC;
+    box-shadow: 0px 2px 0px #848484;
+    border-radius: 12px;
+    margin-top: 30px;
+    font-family: 'Monda', sans-serif;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    --button-height: 40px;
+    width: 40px;
+    height: var(--button-height);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #E7E7E7;
+    border: 1px solid rgba(37, 37, 37, 0.6);
+    box-shadow: inset 0px 3px 1px #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    line-height: var(--button-height);
+    cursor: pointer;
+}
+
+.button._active {
+    background-color: #00ccff;
+    box-shadow: inset 0px 3px 1px #00ccff;
+}
+
+.info {
+    text-align: center;
+    margin: 50px 0px;
+    font-family: 'Monda', sans-serif, bold;
+    font-size: 18px;
+    color: #848484;
+}
