@@ -1,405 +1,405 @@
 const keyboardObject = [
   { // первый ряд
-    backqoute: {
+    Backquote: {
       en_lower: '`',
       en_upper: '~',
       ru_lower: 'ё',
-      ru_upper: 'Ё'
+      ru_upper: 'Ё',
     },
-    digit1: {
+    Digit1: {
       en_lower: '1',
       en_upper: '!',
       ru_lower: '1',
-      ru_upper: '!'
+      ru_upper: '!',
     },
-    digit2: {
+    Digit2: {
       en_lower: '2',
       en_upper: '@',
       ru_lower: '2',
-      ru_upper: '"'
+      ru_upper: '"',
     },
-    digit3: {
+    Digit3: {
       en_lower: '3',
       en_upper: '#',
       ru_lower: '3',
-      ru_upper: '№'
+      ru_upper: '№',
     },
-    digit4: {
+    Digit4: {
       en_lower: '4',
       en_upper: '$',
       ru_lower: '4',
-      ru_upper: ';'
+      ru_upper: ';',
     },
-    digit5: {
+    Digit5: {
       en_lower: '5',
       en_upper: '%',
       ru_lower: '5',
-      ru_upper: '%'
+      ru_upper: '%',
     },
-    digit6: {
+    Digit6: {
       en_lower: '6',
       en_upper: '^',
       ru_lower: '6',
-      ru_upper: ':'
+      ru_upper: ':',
     },
-    digit7: {
+    Digit7: {
       en_lower: '7',
       en_upper: '&',
       ru_lower: '7',
-      ru_upper: '?'
+      ru_upper: '?',
     },
-    digit8: {
+    Digit8: {
       en_lower: '8',
       en_upper: '*',
       ru_lower: '8',
-      ru_upper: '*'
+      ru_upper: '*',
     },
-    digit9: {
+    Digit9: {
       en_lower: '9',
       en_upper: '(',
       ru_lower: '9',
-      ru_upper: '('
+      ru_upper: '(',
     },
-    digit0: {
+    Digit0: {
       en_lower: '0',
       en_upper: ')',
       ru_lower: '0',
-      ru_upper: ')'
+      ru_upper: ')',
     },
-    minus: {
+    Minus: {
       en_lower: '-',
       en_upper: '_',
       ru_lower: '-',
-      ru_upper: '_'
+      ru_upper: '_',
     },
-    plus: {
+    Equal: {
       en_lower: '=',
       en_upper: '+',
       ru_lower: '=',
-      ru_upper: '+'
+      ru_upper: '+',
     },
-    backspace: {
+    Backspace: {
       en_lower: 'Backspace',
       en_upper: 'Backspace',
       ru_lower: 'Backspace',
       ru_upper: 'Backspace',
-      width: '100px'
-    }
+      width: '100px',
+    },
   },
   { // второй ряд
-    tab: {
+    Tab: {
       en_lower: 'Tab',
       en_upper: 'Tab',
       ru_lower: 'Tab',
       ru_upper: 'Tab',
-      width: '50px'
+      width: '50px',
     },
-    key_q: {
+    KeyQ: {
       en_lower: 'q',
       en_upper: 'Q',
       ru_lower: 'й',
-      ru_upper: 'Й'
+      ru_upper: 'Й',
     },
-    key_w: {
+    KeyW: {
       en_lower: 'w',
       en_upper: 'W',
       ru_lower: 'ц',
-      ru_upper: 'Ц'
+      ru_upper: 'Ц',
     },
-    key_e: {
+    KeyE: {
       en_lower: 'e',
       en_upper: 'E',
       ru_lower: 'у',
-      ru_upper: 'У'
+      ru_upper: 'У',
     },
-    key_r: {
+    KeyR: {
       en_lower: 'r',
       en_upper: 'R',
       ru_lower: 'к',
-      ru_upper: 'К'
+      ru_upper: 'К',
     },
-    key_t: {
+    KeyT: {
       en_lower: 't',
       en_upper: 'T',
       ru_lower: 'е',
-      ru_upper: 'Е'
+      ru_upper: 'Е',
     },
-    key_y: {
+    KeyY: {
       en_lower: 'y',
       en_upper: 'Y',
       ru_lower: 'н',
-      ru_upper: 'Н'
+      ru_upper: 'Н',
     },
-    key_u: {
+    KeyU: {
       en_lower: 'u',
       en_upper: 'U',
       ru_lower: 'г',
-      ru_upper: 'Г'
+      ru_upper: 'Г',
     },
-    key_i: {
+    KeyI: {
       en_lower: 'i',
       en_upper: 'I',
       ru_lower: 'ш',
-      ru_upper: 'Ш'
+      ru_upper: 'Ш',
     },
-    key_o: {
+    KeyO: {
       en_lower: 'o',
       en_upper: 'O',
       ru_lower: 'щ',
-      ru_upper: 'Щ'
+      ru_upper: 'Щ',
     },
-    key_p: {
+    KeyP: {
       en_lower: 'p',
       en_upper: 'P',
       ru_lower: 'з',
-      ru_upper: 'З'
+      ru_upper: 'З',
     },
-    bracket_left: {
+    BracketLeft: {
       en_lower: '[',
       en_upper: '{',
       ru_lower: 'х',
-      ru_upper: 'Х'
+      ru_upper: 'Х',
     },
-    bracket_right: {
+    BracketRight: {
       en_lower: ']',
       en_upper: '}',
       ru_lower: 'ъ',
-      ru_upper: 'Ъ'
+      ru_upper: 'Ъ',
     },
-    backslash: {
+    Backslash: {
       en_lower: '\\',
       en_upper: '|',
       ru_lower: '\\',
-      ru_upper: '/'
+      ru_upper: '/',
     },
-    delete: {
+    Delete: {
       en_lower: 'Del',
       en_upper: 'Del',
       ru_lower: 'Del',
-      ru_upper: 'Del'
-    }
+      ru_upper: 'Del',
+    },
   },
   { // третий ряд
-    caps_lock: {
+    CapsLock: {
       en_lower: 'CapsLock',
       en_upper: 'CapsLock',
       ru_lower: 'CapsLock',
       ru_upper: 'CapsLock',
-      width: '100px'
+      width: '100px',
     },
-    key_a: {
+    KeyA: {
       en_lower: 'a',
       en_upper: 'A',
       ru_lower: 'ф',
-      ru_upper: 'Ф'
+      ru_upper: 'Ф',
     },
-    key_s: {
+    KeyS: {
       en_lower: 's',
       en_upper: 'S',
       ru_lower: 'ы',
-      ru_upper: 'Ы'
+      ru_upper: 'Ы',
     },
-    key_d: {
+    KeyD: {
       en_lower: 'd',
       en_upper: 'D',
       ru_lower: 'в',
-      ru_upper: 'В'
+      ru_upper: 'В',
     },
-    key_f: {
+    KeyF: {
       en_lower: 'f',
       en_upper: 'F',
       ru_lower: 'а',
-      ru_upper: 'А'
+      ru_upper: 'А',
     },
-    key_g: {
+    KeyG: {
       en_lower: 'g',
       en_upper: 'G',
       ru_lower: 'п',
-      ru_upper: 'П'
+      ru_upper: 'П',
     },
-    key_h: {
+    KeyH: {
       en_lower: 'h',
       en_upper: 'H',
       ru_lower: 'р',
-      ru_upper: 'Р'
+      ru_upper: 'Р',
     },
-    key_j: {
+    KeyJ: {
       en_lower: 'j',
       en_upper: 'J',
       ru_lower: 'о',
-      ru_upper: 'О'
+      ru_upper: 'О',
     },
-    key_k: {
+    KeyK: {
       en_lower: 'k',
       en_upper: 'K',
       ru_lower: 'л',
-      ru_upper: 'Л'
+      ru_upper: 'Л',
     },
-    key_l: {
+    KeyL: {
       en_lower: 'l',
       en_upper: 'L',
       ru_lower: 'д',
-      ru_upper: 'Д'
+      ru_upper: 'Д',
     },
-    semicolon: {
+    Semicolon: {
       en_lower: ';',
       en_upper: ':',
       ru_lower: 'ж',
-      ru_upper: 'Ж'
+      ru_upper: 'Ж',
     },
-    quotes: {
+    Quote: {
       en_lower: '\'',
       en_upper: '"',
       ru_lower: 'э',
-      ru_upper: 'Э'
+      ru_upper: 'Э',
     },
-    enter: {
+    Enter: {
       en_lower: 'Enter',
       en_upper: 'Enter',
       ru_lower: 'Enter',
       ru_upper: 'Enter',
-      width: '90px'
-    }
+      width: '90px',
+    },
   },
   { // четвертый ряд
-    shift_left: {
+    ShiftLeft: {
       en_lower: 'Shift',
       en_upper: 'Shift',
       ru_lower: 'Shift',
       ru_upper: 'Shift',
-      width: '100px'
+      width: '100px',
     },
-    key_z: {
+    KeyZ: {
       en_lower: 'z',
       en_upper: 'Z',
       ru_lower: 'я',
-      ru_upper: 'Я'
+      ru_upper: 'Я',
     },
-    key_x: {
+    KeyX: {
       en_lower: 'x',
       en_upper: 'X',
       ru_lower: 'ч',
-      ru_upper: 'Ч'
+      ru_upper: 'Ч',
     },
-    key_c: {
+    KeyC: {
       en_lower: 'c',
       en_upper: 'C',
       ru_lower: 'с',
-      ru_upper: 'С'
+      ru_upper: 'С',
     },
-    key_v: {
+    KeyV: {
       en_lower: 'v',
       en_upper: 'V',
       ru_lower: 'м',
-      ru_upper: 'М'
+      ru_upper: 'М',
     },
-    key_b: {
+    KeyB: {
       en_lower: 'b',
       en_upper: 'B',
       ru_lower: 'и',
-      ru_upper: 'И'
+      ru_upper: 'И',
     },
-    key_n: {
+    KeyN: {
       en_lower: 'n',
       en_upper: 'N',
       ru_lower: 'т',
-      ru_upper: 'Т'
+      ru_upper: 'Т',
     },
-    key_m: {
+    KeyM: {
       en_lower: 'm',
       en_upper: 'M',
       ru_lower: 'ь',
-      ru_upper: 'Ь'
+      ru_upper: 'Ь',
     },
-    comma: {
+    Comma: {
       en_lower: ',',
       en_upper: '<',
       ru_lower: 'б',
-      ru_upper: 'Б'
+      ru_upper: 'Б',
     },
-    dot: {
+    Period: {
       en_lower: '.',
       en_upper: '>',
       ru_lower: 'ю',
-      ru_upper: 'Ю'
+      ru_upper: 'Ю',
     },
-    slash: {
+    Slash: {
       en_lower: '/',
       en_upper: '?',
       ru_lower: '.',
-      ru_upper: ','
+      ru_upper: ',',
     },
-    top_arrow: {
+    ArrowUp: {
       en_lower: '▲',
       en_upper: '▲',
       ru_lower: '▲',
-      ru_upper: '▲'
+      ru_upper: '▲',
     },
-    shift_right: {
+    ShiftRight: {
       en_lower: 'Shift',
       en_upper: 'Shift',
       ru_lower: 'Shift',
       ru_upper: 'Shift',
-      width: '90px'
-    }
+      width: '90px',
+    },
   },
   { // пятый ряд
-    ctrl_left: {
+    ControlLeft: {
       en_lower: 'Ctrl',
       en_upper: 'Ctrl',
       ru_lower: 'Ctrl',
-      ru_upper: 'Ctrl'
+      ru_upper: 'Ctrl',
     },
-    win: {
+    MetaLeft: {
       en_lower: 'Win',
       en_upper: 'Win',
       ru_lower: 'Win',
-      ru_upper: 'Win'
+      ru_upper: 'Win',
     },
-    alt_left: {
+    AltLeft: {
       en_lower: 'Alt',
       en_upper: 'Alt',
       ru_lower: 'Alt',
-      ru_upper: 'Alt'
+      ru_upper: 'Alt',
     },
-    space: {
+    Space: {
       en_lower: ' ',
       en_upper: ' ',
       ru_lower: ' ',
       ru_upper: ' ',
-      width: '372px'
+      width: '372px',
     },
-    alt_right: {
+    AltRight: {
       en_lower: 'Alt',
       en_upper: 'Alt',
       ru_lower: 'Alt',
-      ru_upper: 'Alt'
+      ru_upper: 'Alt',
     },
-    left_arrow: {
+    ArrowLeft: {
       en_lower: '◄',
       en_upper: '◄',
       ru_lower: '◄',
-      ru_upper: '◄'
+      ru_upper: '◄',
     },
-    bottom_arrow: {
+    ArrowDown: {
       en_lower: '▼',
       en_upper: '▼',
       ru_lower: '▼',
-      ru_upper: '▼'
+      ru_upper: '▼',
     },
-    right_arrow: {
+    ArrowRight: {
       en_lower: '►',
       en_upper: '►',
       ru_lower: '►',
-      ru_upper: '►'
+      ru_upper: '►',
     },
-    ctrl_right: {
+    ControlRight: {
       en_lower: 'Ctrl',
       en_upper: 'Ctrl',
       ru_lower: 'Ctrl',
-      ru_upper: 'Ctrl'
-    }
-  }
-]
+      ru_upper: 'Ctrl',
+    },
+  },
+];
 
-export default keyboardObject
+export default keyboardObject;
