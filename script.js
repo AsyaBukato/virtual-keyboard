@@ -91,12 +91,12 @@ function clickHandler(event) {
     ctrl = true;
   } else if ((event.target.dataset.name === 'AltLeft' && ctrl) || (event.code === 'AltLeft' && ctrl)) {
     changeLanguage();
-  } else if (event.target.dataset.name === 'MetaLeft'
-    || event.target.dataset.name === 'AltRight'
-    || event.target.dataset.name === 'ControlRight'
-    || event.target.dataset.name === 'AltLeft'
-    || event.target.dataset.name === 'Delete') {
-  } else if (event.target.parentNode.dataset.row) {
+  } else if (event.target.parentNode.dataset.row
+    && event.target.dataset.name !== 'MetaLeft'
+    && event.target.dataset.name !== 'AltRight'
+    && event.target.dataset.name !== 'ControlRight'
+    && event.target.dataset.name !== 'AltLeft'
+    && event.target.dataset.name !== 'Delete') {
     text += keyboardObject[event.target.parentNode.dataset.row][event.target.dataset.name][layout];
     ctrl = false;
   }
@@ -134,8 +134,6 @@ keyboardObject.forEach((item, idx) => {
     if (elem === 'ShiftLeft' || elem === 'ShiftRight') {
       button.addEventListener('mousedown', changeRegister);
       button.addEventListener('mouseup', changeRegister);
-    } else {
-      button.addEventListener('click', clickHandler);
     }
     button.addEventListener('mousedown', highLightOn);
     button.addEventListener('mouseup', highLightOff);
