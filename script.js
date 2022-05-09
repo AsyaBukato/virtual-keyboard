@@ -50,6 +50,10 @@ function getLocalStorage() {
       layout = `${lang}_${register}`;
       refill();
     }
+  } else {
+    lang = 'en';
+    layout = `${lang}_${register}`;
+    refill();
   }
 }
 window.addEventListener('load', getLocalStorage);
